@@ -1,0 +1,5 @@
+{
+  "name": "Y2K Portfolio Experience",
+  "description": "A React application that simulates a 2000s computer desktop environment, providing a nostalgic portfolio experience with retro UI, boot sequence, interactive icons, and mock applications.",
+  "requestFramePermissions": []
+}

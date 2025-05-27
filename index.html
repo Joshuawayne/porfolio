@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Y2K Portfolio OS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Tahoma', 'Geneva', sans-serif; /* Common Y2K era font */
+        overflow: hidden; /* Prevent scrollbars on the body */
+        background-color: #008080; /* Classic teal desktop color */
+      }
+      /* Basic Y2K button style */
+      .y2k-button {
+        border-width: 2px;
+        border-style: solid;
+        border-top-color: #ffffff;
+        border-left-color: #ffffff;
+        border-right-color: #404040;
+        border-bottom-color: #404040;
+        background-color: #c0c0c0; /* Silver/Gray */
+        padding: 2px 6px;
+      }
+      .y2k-button:active {
+        border-top-color: #404040;
+        border-left-color: #404040;
+        border-right-color: #ffffff;
+        border-bottom-color: #ffffff;
+      }
+      /* Sunken effect for text fields, etc. */
+      .y2k-sunken {
+        border-width: 2px;
+        border-style: solid;
+        border-top-color: #404040;
+        border-left-color: #404040;
+        border-right-color: #ffffff;
+        border-bottom-color: #ffffff;
+        background-color: #ffffff;
+      }
+      /* Raised panel effect */
+      .y2k-raised {
+        border-width: 2px;
+        border-style: solid;
+        border-top-color: #ffffff;
+        border-left-color: #ffffff;
+        border-right-color: #808080;
+        border-bottom-color: #808080;
+        background-color: #c0c0c0;
+      }
+       /* Y2K Window Title Bar Blue */
+      .y2k-title-bar {
+        background: linear-gradient(to right, #000080, #1084d0); /* Dark blue to lighter blue gradient */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
+<link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>
