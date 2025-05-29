@@ -25,7 +25,7 @@ const userProjects: PortfolioProject[] = [
     title: 'Avant Magazine',
     imageUrl: 'https://picsum.photos/seed/fashionapp/300/200', // Replace with actual screenshot if possible
     description: 'A sleek and stylish online fashion magazine site, showcasing modern web design.',
-    technologies: ['Web Design', 'HTML', 'CSS', 'JavaScript'], // Assuming tech stack
+    technologies: ['GSAP', 'HTML', 'CSS', 'JavaScript'], // Assuming tech stack
     liveLink: 'https://avantmagazine.netlify.app/',
   },
   {
