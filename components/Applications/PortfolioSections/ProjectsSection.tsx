@@ -33,16 +33,16 @@ const userProjects: PortfolioProject[] = [
     title: 'Weather App',
     // imageUrl: 'https://picsum.photos/seed/weatherapp/300/200',
     description: 'A practical application to check weather forecasts. Built with Blade.',
-    technologies: ['Blade', 'PHP', 'APIs'], // Assumed tech based on "Blade"
+    technologies: ['Blade', 'PHP', 'Python', 'APIs'], // Assumed tech based on "Blade"
     // repoLink: 'https://github.com/Joshuawayne/weather-app', // Example
   },
    {
     id: 'mazao-app',
     title: 'Mazao App',
     // imageUrl: 'https://picsum.photos/seed/mazaoapp/300/200',
-    description: 'A project related to produce or farming (Mazao often means "produce" or "crops" in Swahili). Likely involves TypeScript.',
-    technologies: ['TypeScript', 'Agricultural Tech (Potentially)'],
-    // repoLink: 'https://github.com/Joshuawayne/mazao', // Example
+    description: 'A project related to produce and  farming (Mazao often means "produce" or "crops" in Swahili). This involves TypeScript.',
+    technologies: ['TypeScript', 'React'],
+    // repoLink: 'https://github.com/Joshuawayne/mazao', 
   }
 ];
 
