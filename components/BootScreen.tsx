@@ -110,7 +110,7 @@ const BootScreen: React.FC<BootScreenProps> = ({ onBootComplete }) => {
   return (
     <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black text-green-400 font-mono p-8">
       <div className="w-full max-w-2xl space-y-2 text-sm">
-        <p className="text-2xl text-center mb-4 text-white">Y2K Portfolio OS - Booting Up</p>
+        <p className="text-2xl text-center mb-4 text-white">TJ OS - Booting Up</p>
         {displayedText.map((text, index) => (
           <p key={index} className="whitespace-pre-wrap">{`> ${text}`}</p>
         ))}

@@ -69,7 +69,7 @@ export const RestoreIconSvg = (
 
 
 export const INITIAL_DESKTOP_ICONS: DesktopIconItem[] = [
-  { id: 'my-documents', label: 'My Documents', icon: FolderIconSvg, appType: AppType.FOLDER, defaultPosition: { x: 20, y: 20 }, data: { folderPath: '/My Documents' } },
+  { id: 'my-documents', label: 'Click Me', icon: FolderIconSvg, appType: AppType.FOLDER, defaultPosition: { x: 20, y: 20 }, data: { folderPath: '/My Documents' } },
   { id: 'recycle-bin', label: 'Recycle Bin', icon: RecycleBinEmptySvg, appType: AppType.RECYCLE_BIN, defaultPosition: { x: 20, y: 120 } },
   { id: 'settings-app', label: 'Control Panel', icon: SettingsIconSvg, appType: AppType.SETTINGS, defaultPosition: { x: 20, y: 220 } },
   { id: 'calculator-app', label: 'Calculator', icon: CalculatorIconSvg, appType: AppType.CALCULATOR, defaultPosition: { x: 20, y: 320 } },
