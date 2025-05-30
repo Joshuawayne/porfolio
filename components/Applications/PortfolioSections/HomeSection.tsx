@@ -40,7 +40,7 @@ const HomeSection: React.FC = () => {
       {/* Motto Section */}
       <section className="y2k-raised bg-gray-100 p-4">
         <h3 className="text-lg font-semibold text-green-600 mb-2">My Motto:</h3>
-        <p className="italic">"Code with passion, build for impact, and maybe add a little retro flair."</p>
+        <p className="italic">"Code with passion, build for impact, and maybe add a little retro flair😉."</p>
       </section>
     </div>
   );
