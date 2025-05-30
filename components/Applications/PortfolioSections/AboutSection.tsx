@@ -12,13 +12,13 @@ const skills = [
 ];
 
 const education = [
-  { degree: "M.S. in Computer Science", school: "University of Digital Arts (Conceptual)", year: "2002" },
-  { degree: "B.S. in Web Design", school: "Pixel Perfect Institute (Conceptual)", year: "1999" },
+  { degree: "B.S. in Information Technology", school: "KCA University", year: "2024" },
+  { degree: "B.S. in Web Design", school: "Pixel Perfect Institute ", year: "2019" },
 ];
 
 const certifications = [
-  { name: "Certified Y2K Bug Exterminator", issuer: "Retro Certs Inc.", year: "2000" },
-  { name: "Advanced JavaScript Ninja", issuer: "Code Dojo", year: "2001" },
+  { name: "Certified Y2K Bug Exterminator", issuer: "Retro Certs Inc.", year: "2023" },
+  { name: "Advanced JavaScript Ninja", issuer: "Code Dojo", year: "2019" },
 ];
 
 const AboutSection: React.FC = () => {
@@ -57,7 +57,7 @@ const AboutSection: React.FC = () => {
       </section>
 
       <section className="y2k-raised bg-gray-50 p-4">
-        <h3 className="text-lg font-semibold text-green-600 mb-3">Education (Conceptual)</h3>
+        <h3 className="text-lg font-semibold text-green-600 mb-3">Education </h3>
         <ul className="list-disc list-inside space-y-1">
           {education.map(edu => (
             <li key={edu.degree}>{edu.degree} - <span className="font-medium">{edu.school}</span> ({edu.year})</li>
@@ -66,7 +66,7 @@ const AboutSection: React.FC = () => {
       </section>
 
       <section className="y2k-raised bg-gray-50 p-4">
-        <h3 className="text-lg font-semibold text-orange-500 mb-3">Certifications (Conceptual)</h3>
+        <h3 className="text-lg font-semibold text-orange-500 mb-3">Certifications </h3>
          <ul className="list-disc list-inside space-y-1">
           {certifications.map(cert => (
             <li key={cert.name}>{cert.name} - <span className="font-medium">{cert.issuer}</span> ({cert.year})</li>
